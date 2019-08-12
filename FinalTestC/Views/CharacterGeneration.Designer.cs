@@ -41,9 +41,25 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.GenerteAbilityButton = new System.Windows.Forms.Button();
+            this.Strength = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.StringDataLabel = new System.Windows.Forms.Label();
+            this.DexterityLabel = new System.Windows.Forms.Label();
+            this.EnduranceLabel = new System.Windows.Forms.Label();
+            this.IntellectLabel = new System.Windows.Forms.Label();
+            this.EducationLabel = new System.Windows.Forms.Label();
+            this.SocialLabel = new System.Windows.Forms.Label();
             this.Identity.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Identity
@@ -71,6 +87,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.tableLayoutPanel2);
             this.tabPage2.Location = new System.Drawing.Point(4, 33);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Size = new System.Drawing.Size(754, 304);
@@ -187,6 +204,158 @@
             this.button3.Text = "Generate Name";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 4;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.Controls.Add(this.StringDataLabel, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.label6, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.GenerteAbilityButton, 2, 7);
+            this.tableLayoutPanel2.Controls.Add(this.label3, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.label7, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.label4, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.label8, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.Strength, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.DexterityLabel, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.EnduranceLabel, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.IntellectLabel, 1, 3);
+            this.tableLayoutPanel2.Controls.Add(this.EducationLabel, 1, 4);
+            this.tableLayoutPanel2.Controls.Add(this.SocialLabel, 1, 5);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(9, 0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 8;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(745, 291);
+            this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // GenerteAbilityButton
+            // 
+            this.tableLayoutPanel2.SetColumnSpan(this.GenerteAbilityButton, 2);
+            this.GenerteAbilityButton.Location = new System.Drawing.Point(374, 255);
+            this.GenerteAbilityButton.Name = "GenerteAbilityButton";
+            this.GenerteAbilityButton.Size = new System.Drawing.Size(363, 33);
+            this.GenerteAbilityButton.TabIndex = 5;
+            this.GenerteAbilityButton.Text = "Generate Ability";
+            this.GenerteAbilityButton.UseVisualStyleBackColor = true;
+            // 
+            // Strength
+            // 
+            this.Strength.Location = new System.Drawing.Point(3, 0);
+            this.Strength.Name = "Strength";
+            this.Strength.Size = new System.Drawing.Size(254, 36);
+            this.Strength.TabIndex = 5;
+            this.Strength.Text = "Strength";
+            this.Strength.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(3, 72);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(254, 36);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Endurance";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            this.label6.Location = new System.Drawing.Point(3, 36);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(254, 36);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Dexterity";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label7
+            // 
+            this.label7.Location = new System.Drawing.Point(3, 108);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(254, 36);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Intellect";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label8
+            // 
+            this.label8.Location = new System.Drawing.Point(3, 180);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(254, 36);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Social";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.Location = new System.Drawing.Point(3, 144);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(254, 36);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Education";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // StringDataLabel
+            // 
+            this.StringDataLabel.BackColor = System.Drawing.Color.White;
+            this.StringDataLabel.Location = new System.Drawing.Point(263, 0);
+            this.StringDataLabel.Name = "StringDataLabel";
+            this.StringDataLabel.Size = new System.Drawing.Size(105, 36);
+            this.StringDataLabel.TabIndex = 5;
+            this.StringDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // DexterityLabel
+            // 
+            this.DexterityLabel.BackColor = System.Drawing.Color.White;
+            this.DexterityLabel.Location = new System.Drawing.Point(263, 36);
+            this.DexterityLabel.Name = "DexterityLabel";
+            this.DexterityLabel.Size = new System.Drawing.Size(105, 36);
+            this.DexterityLabel.TabIndex = 14;
+            this.DexterityLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // EnduranceLabel
+            // 
+            this.EnduranceLabel.BackColor = System.Drawing.Color.White;
+            this.EnduranceLabel.Location = new System.Drawing.Point(263, 72);
+            this.EnduranceLabel.Name = "EnduranceLabel";
+            this.EnduranceLabel.Size = new System.Drawing.Size(105, 36);
+            this.EnduranceLabel.TabIndex = 15;
+            this.EnduranceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // IntellectLabel
+            // 
+            this.IntellectLabel.BackColor = System.Drawing.Color.White;
+            this.IntellectLabel.Location = new System.Drawing.Point(263, 108);
+            this.IntellectLabel.Name = "IntellectLabel";
+            this.IntellectLabel.Size = new System.Drawing.Size(105, 36);
+            this.IntellectLabel.TabIndex = 16;
+            this.IntellectLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // EducationLabel
+            // 
+            this.EducationLabel.BackColor = System.Drawing.Color.White;
+            this.EducationLabel.Location = new System.Drawing.Point(263, 144);
+            this.EducationLabel.Name = "EducationLabel";
+            this.EducationLabel.Size = new System.Drawing.Size(105, 36);
+            this.EducationLabel.TabIndex = 17;
+            this.EducationLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // SocialLabel
+            // 
+            this.SocialLabel.BackColor = System.Drawing.Color.White;
+            this.SocialLabel.Location = new System.Drawing.Point(263, 180);
+            this.SocialLabel.Name = "SocialLabel";
+            this.SocialLabel.Size = new System.Drawing.Size(105, 36);
+            this.SocialLabel.TabIndex = 18;
+            this.SocialLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // CharacterGeneration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
@@ -198,7 +367,9 @@
             this.Text = "Charactor Generator";
             this.Identity.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -218,5 +389,19 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Strength;
+        private System.Windows.Forms.Button GenerteAbilityButton;
+        private System.Windows.Forms.Label StringDataLabel;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label DexterityLabel;
+        private System.Windows.Forms.Label EnduranceLabel;
+        private System.Windows.Forms.Label IntellectLabel;
+        private System.Windows.Forms.Label EducationLabel;
+        private System.Windows.Forms.Label SocialLabel;
     }
 }
