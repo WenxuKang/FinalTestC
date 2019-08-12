@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Identity = new System.Windows.Forms.TabControl();
+            this.MainTabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
@@ -55,25 +55,25 @@
             this.IntellectLabel = new System.Windows.Forms.Label();
             this.EducationLabel = new System.Windows.Forms.Label();
             this.SocialLabel = new System.Windows.Forms.Label();
-            this.Identity.SuspendLayout();
+            this.MainTabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Identity
+            // MainTabControl
             // 
-            this.Identity.Controls.Add(this.tabPage1);
-            this.Identity.Controls.Add(this.tabPage2);
-            this.Identity.Controls.Add(this.tabPage3);
-            this.Identity.Controls.Add(this.tabPage4);
-            this.Identity.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Identity.Location = new System.Drawing.Point(0, 0);
-            this.Identity.Name = "Identity";
-            this.Identity.SelectedIndex = 0;
-            this.Identity.Size = new System.Drawing.Size(762, 341);
-            this.Identity.TabIndex = 0;
+            this.MainTabControl.Controls.Add(this.tabPage1);
+            this.MainTabControl.Controls.Add(this.tabPage2);
+            this.MainTabControl.Controls.Add(this.tabPage3);
+            this.MainTabControl.Controls.Add(this.tabPage4);
+            this.MainTabControl.Dock = System.Windows.Forms.DockStyle.Top;
+            this.MainTabControl.Location = new System.Drawing.Point(0, 0);
+            this.MainTabControl.Name = "MainTabControl";
+            this.MainTabControl.SelectedIndex = 0;
+            this.MainTabControl.Size = new System.Drawing.Size(762, 341);
+            this.MainTabControl.TabIndex = 0;
             // 
             // tabPage1
             // 
@@ -82,7 +82,7 @@
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Size = new System.Drawing.Size(754, 304);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "MainTabControl";
+            this.tabPage1.Text = "IdentityPage";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -92,7 +92,7 @@
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Size = new System.Drawing.Size(754, 304);
             this.tabPage2.TabIndex = 0;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "AbilityPage";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -122,7 +122,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(754, 304);
             this.tabPage3.TabIndex = 1;
-            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.Text = "SkillPage";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // tabPage4
@@ -132,7 +132,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(754, 304);
             this.tabPage4.TabIndex = 2;
-            this.tabPage4.Text = "tabPage4";
+            this.tabPage4.Text = "CharacterSheetPage";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
@@ -362,10 +362,10 @@
             this.ClientSize = new System.Drawing.Size(762, 435);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.Identity);
+            this.Controls.Add(this.MainTabControl);
             this.Name = "CharacterGeneration";
             this.Text = "Charactor Generator";
-            this.Identity.ResumeLayout(false);
+            this.MainTabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -376,7 +376,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TabControl Identity;
+        private System.Windows.Forms.TabControl MainTabControl;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Button button1;
