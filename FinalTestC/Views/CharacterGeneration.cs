@@ -10,9 +10,29 @@ namespace FinalTestC.Views
 {
     public partial class CharacterGeneration : FinalTestC.Views.MasterForm
     {
+        public object MainTabControl { get; private set; }
+
         public CharacterGeneration()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if(MainTabControl.SelectedIndex != 0)
+            {
+                MainTabControl.SelectedIndex--;
+
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (MainTabControl.SelectedIndex < MainTabControl.TabPages.Count - 1)
+            {
+                MainTabControl.SelectedIndex++;
+
+            }
         }
     }
 }
